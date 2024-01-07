@@ -21,12 +21,13 @@
 header {
   max-width: 1600px;
   background: #f1f1f1;
-  padding: 50px;
+  padding: 20px;
 }
 .header-container {
   display: flex;
   width: 90%;
   justify-content: center;
+  gap: 50px;
   padding: 20px;
 }
 
@@ -36,6 +37,7 @@ header {
 
 .header-content {
   text-align: right;
+  padding-top: 50px;
 }
 .header-title {
   color: #151414;
