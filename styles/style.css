@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Work Sans, sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .btn-primary {
@@ -96,3 +96,141 @@ header {
   list-style: none;
 }
 
+/* plans section styles  */
+
+#plans {
+  background: #fff;
+  padding: 100px 80px;
+}
+
+.plans-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  text-align: center;
+}
+
+.plan-img {
+  margin-bottom: 20px;
+}
+.plan-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.plan-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* contact section styles  */
+
+#contact {
+  background: linear-gradient(
+      45deg,
+      rgb(237, 91, 35, 0.9),
+      rgb(166, 169, 123, 0.15)
+    ),
+    url("../images/watch.png") no-repeat;
+
+  margin: 0px 100px 100px 100px;
+}
+
+.contact-container {
+  padding: 50px 0 50px 50px;
+}
+.contact-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  width: 459px;
+}
+
+.btn-contact {
+  background: #fff;
+  color: #f15b22;
+}
+/* footer section styles  */
+
+#section-footer {
+  background: #151414;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 50px 100px ;
+  text-align: start;
+  margin: 0px 100px 0px 100px;
+}
+
+.future-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.future-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.furure-email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.future-phone {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.subscribe-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.subscribe-email {
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  margin-bottom: 22px;
+  width: 325px;
+  height: 64px;
+  padding: 0 0 0 10px;
+}
+
+.btn-subscribe {
+  background: #fff;
+  color: #f15b22;
+}
