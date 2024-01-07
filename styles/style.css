@@ -1,0 +1,53 @@
+/* common styles  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Work Sans, sans-serif;
+}
+
+.btn-primary {
+  background: #f15b22;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px;
+}
+
+/* header section styles  */
+
+header {
+  max-width: 1600px;
+  background: #f1f1f1;
+  padding: 50px;
+}
+.header-container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header-img {
+  width: 500px;
+}
+
+.header-content {
+  text-align: right;
+}
+.header-title {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.header-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
